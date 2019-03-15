@@ -37,7 +37,7 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
 - [x] WebCam for Facetime HD Camera Built-In (CustomPeripheral.kext)
 - [x] USB3.0 Port Must be Rename XHCI to XHC in config.plist, USB2.0 Ports Rename EHC1/EHC2 to EH01/EH02 (DSDT Patch for USB Power + USBInjectAll.kext + Remove Port Limit Kext to Patches in config.plist)
 - [x] Sleep and Wake (change Method _PTS/_WAK to ZPTS/ZWAK and XWAK to ZWAK with Rename in config.plist + Included ACPI SSDT Patched) Don't Forget to Disable eGPU in config.plist
-- [x] Power Management CPU (Edit Freq X86*.kext with freqVectorsEdit.sh must be Sync in Native Freq CPU + SSDT.aml with Modify included ["cf-frequency-data"](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/EFI-Bootloader/EFI/ACPI/patched) for sync to CPUFriend.kext and CPUFriendDataProvider.kext
+- [x] Power Management CPU (Edit Freq X86*.kext with freqVectorsEdit.sh must be Sync in Native Freq CPU + SSDT.aml with Modify included ["cf-frequency-data"](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/EFI-Bootloader/EFI/CLOVER/ACPI/patched) for sync to CPUFriend.kext and CPUFriendDataProvider.kext
 - [x] Etc..
  
 --------------------------------------------------------------------------------------------
